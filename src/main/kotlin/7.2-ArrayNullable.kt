@@ -19,5 +19,5 @@ fun main() {
     println(names[3])
     println(names[4])
 
-    println("Panjang array adalah: ${names.size}")
+    println("Panjang array adalah: ${names.size}");
 }
