@@ -18,4 +18,10 @@ fun main() {
     for (value in 100 downTo 0 step 5){
         println(value);
     }
+
+    // Kombinasi array & range
+    val ukuranNama = names.size - 1;
+    for (i in 0..ukuranNama){
+        println("Index ke $i: ${names.get(i)}");
+    }
 }
