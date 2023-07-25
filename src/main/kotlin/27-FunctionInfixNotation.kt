@@ -6,8 +6,13 @@ infix fun String.to(type: String): String {
     }
 }
 
-infix fun Int.sum(value: Int): Int{
+infix fun Int.sum(value: Int): Int {
     val total = this + value;
+    return total;
+}
+
+infix fun Int.kurang(value: Int): Int {
+    val total = this - value;
     return total;
 }
 
@@ -30,4 +35,7 @@ fun main() {
 
     val result2 = 2 sum 3;
     println(result2); //5
+
+    val result3 = 5 kurang 2;
+    println(result3); //3
 }
