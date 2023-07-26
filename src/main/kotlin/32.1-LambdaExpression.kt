@@ -18,7 +18,7 @@ fun main() {
     val name = lambdaName("kevin");
     println(name);
 
-    // dua parameter (tidak perlu menggunakan kurun ()
+    // dua parameter (tidak perlu menggunakan kurung ()
     val sum: (Int, Int) -> Int = { a : Int, b: Int ->
        val result =  a + b;
         result;
