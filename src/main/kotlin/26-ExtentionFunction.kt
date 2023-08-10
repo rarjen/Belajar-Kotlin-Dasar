@@ -3,7 +3,12 @@ fun String.hello(): String{
     // dengan demikian, sekarang di tipe data string di kotlin mempunyai tipe data hello (Harap hati-hati!)
 }
 
+fun Int.number(): Int {
+    return this;
+}
+
 fun String.sayHello(): Unit = println("Hello $this");
+fun Int.sayNumber() : Unit = println(2);
 
 fun main() {
     /*
@@ -25,5 +30,9 @@ fun main() {
 
     // Here is the magic
     "Abiel".sayHello(); //Hello Abiel
+
+
+    var someNumber: Int = 10;
+    println(someNumber);
 
 }
